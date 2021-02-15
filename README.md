@@ -21,7 +21,7 @@ python -m src.crawler --keyword "Roosevelt Franklin" --max_num 20 --project proj
 python -m src.crawler --keyword "De Gasperi Alcide" --max_num 20 --project proj_name
 ```
 
-> NOTE: The crawler is temporarly out of service because of https://github.com/hellock/icrawler/issues/65
+
  
 ### 2. Preprocess the raw images (Face detection)
 Face alignment using MTCNN
@@ -105,7 +105,4 @@ or
 docker-compose up
 ```
 
-### Special Thanks to:
-*  [**Face-Recognition-using-Tensorflow**](https://github.com/davidsandberg/facenet)
-*  [**Face-Track-Detect-Extract**](https://github.com/Linzaer/Face-Track-Detect-Extract)
 
