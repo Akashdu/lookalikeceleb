@@ -1,15 +1,12 @@
 .DS_Store
+
 /data/
 /video/
 /database/
-/data/classifier/
-/results
+/config
+/evaluation
 
-evaluation/dataset/
-evaluation/data/
-evaluation/frames/
-
-challenge/data/
+/visualizer/node_modules
 
 .idea
 
@@ -117,4 +114,3 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-*.jpg
